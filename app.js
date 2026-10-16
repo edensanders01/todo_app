@@ -52,7 +52,6 @@ function createTodoItem(todo, todoIndex){
     saveTodos();
   });
   checkbox.checked = todo.completed;
-  // completeItem(todo, todoIndex);
   return todoList;
 }
 
