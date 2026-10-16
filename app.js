@@ -17,13 +17,6 @@ addButton.addEventListener("click", function(e){
   addTodo();
 });
 
-// function completeItem(todo, todoIndex){
-//   if (allTodos[todoIndex].completed = true){
-//     const todoText = todo.text;
-//     allTodos[todoIndex].text.setItem = allTodos[todoIndex].text, " was completed on ", todo.completed_date;
-//   }
-// }
-
 function addTodo(){
   const todoText = todoInput.value.trim();
   if (todoText.length > 0){
